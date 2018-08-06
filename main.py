@@ -19,12 +19,12 @@ print('\n')
 
 while True:
 	print('Tipos de métodos disponíveis: ')
-	print('''	(1)Zero reais de funções
-		 	(2)Sistemas lineares
-			(3)Sistemas não lineares
-			(4)Equações diferenciais
-			(5)Mínimos quadrados
-			(6)Interpolação
+	print('''(1)Zero reais de funções
+		(2)Sistemas lineares
+		(3)Sistemas não lineares
+		(4)Equações diferenciais
+		(5)Mínimos quadrados
+		(6)Interpolação
 						''')
 	t = int(input('Escolha o tipo desejado (código): '))
 	print('***********************************************')
