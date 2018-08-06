@@ -9,7 +9,7 @@ Métodos implementados:
     a)Bisseção
     b)Newton
     c)Secante
-  2)Sistema lineares
+  2)Sistemas lineares
     a)Eliminação de Gauss
     b)Fatoração LU
     c)Gauss-Seidel
