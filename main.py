@@ -14,61 +14,61 @@ import minimosquadrados as mq
 import interpoli as ip
 import intersplines as is
 
-print('*************** Cálculo Numérico ***************')
+print('*************** CÃ¡lculo NumÃ©rico ***************')
 print('\n')
 
 while True:
-	print('Tipos de métodos disponíveis: ')
-	print('''	(1)Zero reais de funções
+	print('Tipos de mÃ©todos disponÃ­veis: ')
+	print('''	(1)Zero reais de funÃ§Ãµes
 		 	(2)Sistemas lineares
-			(3)Sistemas não lineares
-			(4)Equações diferenciais
-			(5)Mínimos quadrados
-			(6)Interpolação
+			(3)Sistemas nÃ£o lineares
+			(4)EquaÃ§Ãµes diferenciais
+			(5)MÃ­nimos quadrados
+			(6)InterpolaÃ§Ã£o
 						''')
-	t = int(input('Escolha o tipo desejado (código): ')
+	t = int(input('Escolha o tipo desejado (cÃ³digo): '))
 	print('***********************************************')
 
 	if t == 1:
-		print('''Zero reais de funções
-			 	(1)Bisseção
+		print('''Zero reais de funÃ§Ãµes
+			 	(1)BisseÃ§Ã£o
 				(2)Newton
 				(3)Secante
 						''')
-		m = int(input('Escolha o método desejado (código): ')
+		m = int(input('Escolha o mÃ©todo desejado (cÃ³digo): '))
 		break
 	elif t == 2:
 		print('''Sistemas lineares
-			 	(1)Eliminação de Gauss
-				(2)Fatoração LU
+			 	(1)EliminaÃ§Ã£o de Gauss
+				(2)FatoraÃ§Ã£o LU
 				(3)Gauss-Seidel
 				(4)Gauss-Jacobi
 						''')
-		m = int(input('Escolha o método desejado (código): ')
+		m = int(input('Escolha o mÃ©todo desejado (cÃ³digo): '))
 		break
 	elif t == 3:
-		print('************* Sistemas não lineares ************')
+		print('************* Sistemas nÃ£o lineares ************')
 		break
 	elif t == 4:
-		print('''Equações diferenciais
-			 	(1)Método de Euler e variantes
+		print('''EquaÃ§Ãµes diferenciais
+			 	(1)MÃ©todo de Euler e variantes
 				(2)Range-Kutta e variantes
 				(3)PVC
 						''')
-		m = int(input('Escolha o método desejado (código): ')
+		m = int(input('Escolha o mÃ©todo desejado (cÃ³digo): '))
 		break
 	elif t == 5:
-		print('*************** Mínimos quadrados **************')
+		print('*************** MÃ­nimos quadrados **************')
 		break
 	elif t == 6:
-		print('''Interpolação
+		print('''InterpolaÃ§Ã£o
 			 	(1)Polinomial
 				(2)Splines
 						''')
-		m = int(input('Escolha o método desejado (código): ')
+		m = int(input('Escolha o mÃ©todo desejado (cÃ³digo): '))
 		break
 	else:
-		print('Sua escolha não é valida')
+		print('Sua escolha nÃ£o Ã© valida')
 		print('\n')
 
 print('************** Programa finalizado *************')
